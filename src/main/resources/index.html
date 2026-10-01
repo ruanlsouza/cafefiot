@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Cafefiot: cafés especiais, produtos selecionados e experiências únicas para os amantes de café.">
+
+    <link rel="stylesheet" href="./static/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Cafefiot | Café especial</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <a class="navbar-brand na" href="index.html"> Cafefiot</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link na" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link na" href="./templates/produtos.html">Produtos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link na" href="./templates/pedidos.html">Pedidos
+                                <span id="quantidadeCarrinho" class="badge bg-danger">0</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <img class="logo1" src="static/img/logo.png" alt="Logo da Cafefiot">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">
+                </button>
+
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2">
+                </button>
+
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3">
+                </button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="static/img/logo.png" class="d-block w-100" alt="Imagem principal da Cafefiot">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="static/img/historia.jpg" class="d-block w-100" alt="História do café">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="static/img/images.jpg" class="d-block w-100" alt="Café servido em uma xícara">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+
+        <section id="produtos" class="cards-section">
+            <div class="container">
+
+                <h2 class="text-center mb-5">Conheça nossos produtos</h2>
+
+                <div class="cards-container">
+
+                    <div class="card">
+                        <img class="cards" src="static/img/cards1.jpg" alt="Produto de café especial">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Café especial</h3>
+                            <p class="card-text">
+                                Grãos selecionados com aroma intenso e sabor equilibrado
+                                para começar bem o seu dia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="cards" src="static/img/cards2.jpg" alt="Café artesanal">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Café artesanal</h3>
+                            <p class="card-text">
+                                Preparado com cuidado para preservar todas as características
+                                e a qualidade do café.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="cards" src="static/img/cards3.jpg" alt="Kit de produtos Cafefiot">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Kit Cafefiot</h3>
+                            <p class="card-text">
+                                Uma seleção especial para presentear ou aproveitar
+                                momentos deliciosos em casa.
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+        </section>
+
+        <section class="historia-cafe">
+            <h1>Nossa História ☕🌿</h1>
+
+            <h2>A História do Café</h2>
+
+            <p>
+                O café faz parte da rotina de milhões de pessoas ao redor do mundo.
+                Sua história começou há muitos séculos, quando os primeiros grãos
+                foram descobertos nas montanhas da Etiópia. Com o passar do tempo,
+                a bebida conquistou diferentes culturas, atravessou continentes e
+                se tornou um símbolo de encontro, conversa e momentos especiais.
+            </p>
+
+            <p>
+                Inspirada nessa tradição, a <strong>Cafefiot</strong> nasceu com o
+                propósito de oferecer mais do que uma simples xícara de café:
+                um ambiente acolhedor, onde cada pessoa pode desfrutar de sabores
+                únicos e viver momentos inesquecíveis.
+            </p>
+
+            <p>
+                Trabalhamos com grãos selecionados e preparados com carinho para
+                garantir qualidade em cada bebida. Seja um café expresso, um cappuccino
+                ou um café especial, cada gole é preparado para proporcionar uma
+                experiência marcante.
+            </p>
+
+            <p>
+                Na <strong>Cafefiot</strong>, acreditamos que um bom café aproxima
+                pessoas, inspira conversas e torna qualquer momento mais especial.
+                Venha conhecer nossa cafeteria e faça parte da nossa história.
+            </p>
+        </section>
+
+    </main>
+
+    <footer id="contato" class="pt-5 pb-3 mt-5">
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <h5>cafefiot</h5>
+                    <p>
+                        O sabor e a qualidade do café na sua mesa.
+                        Encontre os melhores produtos para deixar
+                        o seu dia mais especial.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Links rápidos</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="index.html" class="text-decoration-none">
+                                Início
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="produtos.html" class="text-decoration-none">
+                                Produtos
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="produtos.html#carrinho" class="text-decoration-none">
+                                Carrinho
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contato" class="text-decoration-none">
+                                Contato
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Entre em contato</h5>
+                    <p class="mb-1">E-mail: contato@cafefiot.com</p>
+                    <p class="mb-1">Telefone: (11) 99999-9999</p>
+                    <p>São Paulo - SP</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom mt-4 pt-3 text-center">
+                <p class="mb-0">
+                    &copy; 2026 cafefiot. Todos os direitos reservados.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
